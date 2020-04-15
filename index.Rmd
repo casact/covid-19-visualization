@@ -1,0 +1,20 @@
+---
+title: COVID-19 visualization something something
+---
+
+# Flatten the curve
+
+# Logarithmic scales
+
+# Small multiples
+
+# What data?
+
+Possible denominators/scales
+
+* Scaling to population
+* Scaling deaths to infected population
+
+# Pitfalls
+
+* 
