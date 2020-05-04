@@ -1,14 +1,66 @@
 ---
-title: COVID-19 visualization something something
+title: COVID-19 and data visualization
+output: 
+  html_document:
+    css: cas_style.css
 ---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE
+  , warning = FALSE
+  , error = FALSE
+)
+```
+
+```{r}
+# Load some data
+```
+
+```{r echo = FALSE}
+# selectInput(
+#   select_country
+#   , label = "Select country"
+#   , choices = c('China', 'United States', 'United Kingdom', 'Italy')
+#   , selected = 'United States'
+# )
+```
+
+In the wake of the COVID-19 pandemic, the phrase "flatten the curve" has become ubiquitous. The public at large has come to understand this as a means to slow the spread of the disease so that resources are not overwhelmed. The phrase has an immediate visual and dynamic interpretation. However, this is not the only significant introduction of new visual landscape to the mainstream. Many members of the public are, possibly for the first time, consuming and interpreting plots with a logarithmic scale. The use of small multiples enables one to easily comprehend how the progression of the disease varies based on geography. As well, by plotting different scales - population, testing volume, susceptible persons and others - displays _relationships_ between quantities in a way that is intuitive and informative.
+
+If anyone had said that most of the world would be conversant in a visual display of multivariate, derivative calculus, you would have thought they were crazy. But this is exactly what has taken place. The need to absorb large quantities of time-sensitive data and make decisions about how to respond has rarely been greater than it is now. Data visualization has enable this. In the short brief below, we will walk through some of the more noteworthy displays.
 
 # Flatten the curve
 
+The conversation began with the proliferation of the phrase "flatten the curve". This was most often depicted as shown in Figure. This visualization was created by Esther Kim and Carl Bergstrom of the University of Washington. [http://ctbergstrom.com/covid19.html]
+
+```{r}
+knitr::include_graphics(file.path('images/SlowTheSpread_whiteBG.png'))
+```
+
+Note something important: among the metrics most often discussed is the cumulative number of reported cases. However, this is not what the y-axis represents. Rather, the y-axis corresponds to the number of _active_ cases at a specific time. That this fact is seldom if ever explained suggests that viewers have an intuitive grasp of what the curve is meant to convey.
+
+The shorter, flatter curve tells us the important fact that the number of cases may be spread over time. The other important visual element is the horizontal dashed line. This is where the rubber hits the road. The dashed line gives a clear target which we want to achieve. One might say that the unspoken 
+
 # Logarithmic scales
+
+Consider the graph below.
+
+```{r}
+
+```
+
 
 # Small multiples
 
-# What data?
+It is an inescapable fact that the progression of the disease is different from one country to another and even within countries. Country, or state/territory 
+
+```{r}
+
+```
+
+
+# What do we measure?
 
 Possible denominators/scales
 
